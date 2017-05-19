@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aymanezizi.hw2.NewsFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:id="@+id/linear_news">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentnews"
+            android:text="YBU NEWS"
+            android:textSize="30dp"
+            android:layout_margin="40dp"/>
+
+
+        <Button
+            android:id="@+id/btn_news1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_main"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+
+            android:text="View" >
+        </Button>
+        <Button
+            android:id="@+id/btn_news2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_main"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+
+            android:text="View" >
+        </Button>
+        <Button
+            android:id="@+id/btn_news3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_main"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+
+            android:text="View" >
+        </Button>
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/newsweb">
+        </WebView>
+    </LinearLayout>
+
+
+</ScrollView>
+

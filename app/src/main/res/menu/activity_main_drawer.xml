@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/ic_add_announcements"
+            android:title="Ybu Annuncements" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="Ybu News" />
+
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@mipmap/ic_food"
+            android:title="Food List" />
+    </group>
+
+</menu>
