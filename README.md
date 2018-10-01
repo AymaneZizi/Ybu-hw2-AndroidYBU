@@ -1,7 +1,9 @@
 Ybu-hw2-AndroidYBU
 
 Lecturer : İbrahim ATLI
+
 Homework Specs :
+
 In this homework, you need to develop an application consisting of three information below
 in tab view in Android Studio with min SDK=19.
 * YBU food-list (http://ybu.edu.tr/sks/)
